@@ -120,4 +120,16 @@ The solution addresses challenges in regional language voice interfaces by suppo
 sudo apt update
 sudo apt install -y python3 python3-venv portaudio19-dev ffmpeg
 ```
+---
 
+### 📦 Setup
+
+```bash
+git clone https://github.com/<your-username>/offline-hindi-voice-assistant.git
+cd offline-hindi-voice-assistant
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+---
