@@ -133,3 +133,22 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ---
+
+## 🔐 Privacy & Security
+
+- 📴 **No cloud API calls**
+- 🔒 **Audio never leaves the device**
+- 🧠 **Fully on-device inference**
+- ✅ **Suitable for secure embedded systems**
+
+---
+
+## 🎯 Applications
+
+- 🏠 **Smart home voice control**
+- 🦾 **Assistive technology**
+- 🌾 **Rural & low-connectivity environments**
+- 🏛️ **Public service kiosks**
+- 🤖 **Embedded AI systems**
+
+---
