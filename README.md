@@ -31,6 +31,7 @@ The solution addresses challenges in regional language voice interfaces by suppo
 
 ## 🧠 System Architecture
 
+```text
 🎤 Microphone (USB / Wired / Bluetooth)
         ↓
 🎛️ Audio Capture (ALSA / PyAudio)
@@ -53,3 +54,4 @@ The solution addresses challenges in regional language voice interfaces by suppo
 🔊 Hindi Text-to-Speech (Piper TTS – hi_IN)
         ↓
 🎧 Speaker Output (Laptop / Bluetooth / Headphones)
+```
