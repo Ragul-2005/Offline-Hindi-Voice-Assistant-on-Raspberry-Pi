@@ -55,3 +55,73 @@ The solution addresses challenges in regional language voice interfaces by suppo
         ↓
 🎧 Speaker Output (Laptop / Bluetooth / Headphones)
 ```
+---
+
+
+---
+
+## 🛠️ Hardware Requirements
+
+| Component | Specification |
+|---------|---------------|
+| SBC | Raspberry Pi 4 / 5 (8GB recommended) |
+| Microphone | USB Microphone (Tested: Shure MV7+) |
+| Speaker | 3.5mm / HDMI / Bluetooth |
+| Compute | CPU-only (No GPU / accelerator) |
+
+---
+
+## 💻 Software Stack
+
+- 🐍 **Python 3.10 / 3.11**
+- 🗣️ **Whisper ASR** (Tiny / Base)
+- 🔊 **Piper TTS** (Hindi – pratham medium)
+- 🎧 **ALSA / PyAudio**
+- 📐 **NumPy**
+- 🤖 **Optional LLM Integration** (Offline / Online)
+
+---
+
+## 🧠 Speech Recognition (ASR)
+
+| Feature | Detail |
+|------|------|
+| Model | Whisper Base |
+| Language | Hindi |
+| Input | 48 kHz USB microphone |
+| Processing | Resampled to 16 kHz |
+| Execution | CPU-only |
+
+---
+
+## 🔊 Text-to-Speech (TTS)
+
+| Feature | Detail |
+|------|------|
+| Engine | Piper TTS |
+| Voice | hi_IN-pratham-medium |
+| Output | WAV audio |
+| Quality | Natural Hindi pronunciation |
+
+---
+
+## ⚡ Performance
+
+| Component | Latency (Raspberry Pi 4) |
+|--------|--------------------------|
+| Whisper Tiny | ~2 seconds |
+| Whisper Base | ~4 seconds |
+| Piper TTS | ~1–2 seconds |
+| End-to-End | ~5–8 seconds |
+
+---
+
+## 🚀 Quick Start
+
+### 📋 Prerequisites
+
+```bash
+sudo apt update
+sudo apt install -y python3 python3-venv portaudio19-dev ffmpeg
+```
+
