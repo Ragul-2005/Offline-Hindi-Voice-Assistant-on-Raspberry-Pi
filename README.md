@@ -4,7 +4,7 @@
 # 🎙️ Offline Hindi Voice Assistant on Raspberry Pi
 ### Privacy-Preserving Embedded Speech AI System
 
-[!Hackathon(https://img.shields.io/badge/i4C-DeepTech%20Hackathon-blue?style=for-the-badge)]
+[![Hackathon](https://img.shields.io/badge/i4C-DeepTech%20Hackathon-blue?style=for-the-badge)]
 [![Phase](https://img.shields.io/badge/Phase-Final-success?style=for-the-badge)]
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4%20%7C%205-red?style=for-the-badge&logo=raspberrypi)]
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)]
