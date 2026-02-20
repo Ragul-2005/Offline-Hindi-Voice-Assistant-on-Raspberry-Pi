@@ -30,3 +30,37 @@ The solution addresses challenges in regional language voice interfaces by suppo
 ---
 
 ## 🧠 System Architecture
+
+🎤 Microphone (USB / Wired / Bluetooth)
+        │
+        ▼
+📡 Audio Capture
+   (ALSA / PyAudio)
+        │
+        ▼
+🧠 Hindi Speech Recognition
+   (Whisper ASR – Base / Tiny)
+        │
+        ▼
+📝 Text Normalization
+   • Noise filtering
+   • Language cleanup
+   • Token correction
+        │
+        ▼
+🎯 Intent Recognition
+   • Rule-based
+   • LLM-assisted (optional)
+        │
+        ▼
+💬 Response Generation
+   • Local logic
+   • LLM (Gemma / Qwen / API)
+        │
+        ▼
+🔊 Hindi Text-to-Speech
+   (Piper TTS – hi_IN)
+        │
+        ▼
+🔉 Speaker Output
+   (Laptop / Bluetooth / Headphones)
