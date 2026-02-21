@@ -114,6 +114,13 @@ The solution addresses challenges in regional language voice interfaces by suppo
 
 ## 🚀 Quick Start
 
+## 🐍 Python Version
+
+**Recommended:** Python 3.10 or 3.11  
+**Tested on:** Python 3.11  
+
+⚠️ Python 3.12+ is not officially supported due to PyTorch compatibility issues.
+
 ### 📋 Prerequisites
 
 ```bash
